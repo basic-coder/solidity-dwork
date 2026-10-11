@@ -1,0 +1,203 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_initialOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "freeLancerProfiles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "experienceYears",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "isAvailableHire",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hourlyRateWei",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFreelancerProfile",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "wallet",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "experienceYears",
+								"type": "uint8"
+							},
+							{
+								"internalType": "bool",
+								"name": "isAvailableHire",
+								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "hourlyRateWei",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct FreeLancerProfile[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumberOfRegisteredFreelancers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "experienceYears",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hourlyRateWei",
+						"type": "uint256"
+					}
+				],
+				"name": "registerFreelancerProfile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dwork.sol": "Dwork"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dwork.sol": {
+			"keccak256": "0xa79ad78c90fd3ebaf57c7801245099c6223a834a2353f477aff657b8008e977e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3efeb10518327c15bb05c31cdd4a1422a6f39b0563e99888c5371227def3483a",
+				"dweb:/ipfs/QmdDFV5shU3EDLguxXdWEUs13kDSz7YwMfLG4KzTA332yj"
+			]
+		},
+		"contracts/types/DworkTypes.sol": {
+			"keccak256": "0x17ca68894e3946c4c9c35c1ac7f9ddafd58e01e5b0e4404e58c10b356829a5de",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b7ae761e57a6efd4b915490d9aaadc6e4643e0daf9ac449839c474f88461237b",
+				"dweb:/ipfs/QmYzrKwTnNL1SqGKpctE3MK7KJLbzrVKviwR2qn4eYmoep"
+			]
+		}
+	},
+	"version": 1
+}
